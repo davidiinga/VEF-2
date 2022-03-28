@@ -62,6 +62,12 @@
     tr:nth-child(even) {
         background-color: aquamarine;
     }
+
+    .form{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
     
     .footer{
         background:aquamarine;
@@ -135,6 +141,21 @@
         background-color: aquamarine;
     }
 
+    .form{
+        display: flex;
+        border:solid 2px aquamarine;
+        padding: 10px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+
+    .left{
+        width: 50%;
+    }
+
+    .right{
+        width: 50%;
+    }
 
     .footer{
         background:aquamarine;
