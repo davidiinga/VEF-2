@@ -1,0 +1,219 @@
+@media (max-width: 47.5em){
+    .top{
+        text-align: center;
+        padding-top:90px;
+    }
+    
+    .rwd{
+        height:10%;
+    }
+    
+    .bottom{
+        grid-column-start:3;
+        grid-column-end:4;
+        transform: rotate(180deg)
+    }
+    .data{
+        text-align: center;
+        background-image: url(cover2.jpg);
+        background-attachment: fixed;
+        color:white;
+    }
+    
+    .circle{
+      display: inline-block;
+      border-radius: 50%;
+      border: 1px solid white;
+      margin: 0 auto;
+      height: 75px;
+      width: 75px;
+      margin-top:0.5em;
+    }
+    
+    .text{
+        border-bottom:2px solid aquamarine;
+    }
+    
+    thead {
+        display: none;
+    }
+    
+    tr,td{
+        display: block;
+    }
+
+    td{
+        text-align: right;
+        position: relative;
+        padding: 13px;
+        border-bottom: 1px solid limegreen;
+    }
+
+    td::before{
+        content: attr(data-lable);
+        position: absolute;
+        left:0;
+        width:50%;
+        padding-left: 15px;
+        font-weight: bold;
+        text-align: left;
+    }
+    
+    tr:nth-child(even) {
+        background-color: aquamarine;
+    }
+
+    .form{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    
+    .footer{
+        background:aquamarine;
+    }
+    
+    .none{
+        display:none;
+    }
+
+    .logo{
+        background-color: aquamarine;
+        padding: 16px;
+        font-size: 50px;
+        text-align: center;
+    }
+
+    
+}
+
+
+@media (min-width: 48em){
+    .header{
+        display: grid;
+        grid-template-columns: 50px 1fr 1fr 50px;
+        grid-template-rows: 1fr;
+    }
+    
+    .top{
+        grid-column-start: 2;
+        grid-column-end: 2;
+        text-align: center;
+        padding-top:90px;
+    }
+    
+    .rwd{
+        height:10%;
+    }
+    
+    .bottom{
+        grid-column-start:3;
+        grid-column-end:4;
+        transform: rotate(180deg)
+    }
+    .data{
+        text-align: center;
+        background-image: url(cover2.jpg);
+        background-attachment: fixed;
+        color:white;
+    }
+    
+    .circle{
+      display: inline-block;
+      border-radius: 50%;
+      border: 1px solid white;
+      margin: 0 auto;
+      height: 100px;
+      width: 100px;
+      margin-top:0.5em;
+    }
+
+    .text{
+        border-bottom:2px solid aquamarine;
+    }
+
+    table {
+        border-collapse: collapse;
+    }
+
+    th,td,thead{
+        border-bottom: 1px solid limegreen;
+        padding: 13px;
+        text-align: left;
+    }
+
+    thead{
+        background-color: aquamarine;
+    }
+
+    tr:nth-child(even) {
+        background-color: aquamarine;
+    }
+
+    .form{
+        display: flex;
+        border:solid 2px aquamarine;
+        padding: 10px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+
+    .left{
+        width: 50%;
+    }
+
+    .right{
+        width: 50%;
+    }
+
+    .footer{
+        background:aquamarine;
+    }
+
+    .feet{
+        text-align: center;
+    }
+    
+    .none{
+        display:none;
+    }
+
+    .topnav{
+        background-color: aquamarine;
+        display: flex;
+        justify-content:  space-between;
+        height: 80px;
+        width: 100%;
+        align-items: center;
+
+    }
+
+    .logo{
+        padding-left: 60px;
+    }
+
+    .topnav ul {
+        list-style: none;
+        display: flex;
+    }
+
+    .topnav ul li{
+        padding: 10px 60px;
+        margin-top: 30px
+    }
+
+    .topnav ul li a{
+        text-decoration: none;
+        font-size: 20px;
+        color:white;
+        border-radius: 250px;
+        border:solid 2px darkslategray;
+        padding:7px;
+        background-color: darkslategray;
+    }
+
+    .topnav ul li a:active{
+        color:aquamarine;
+    }
+
+}

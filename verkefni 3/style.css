@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?xv7dcn');
+  src:  url('fonts/icomoon.eot?xv7dcn#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?xv7dcn') format('truetype'),
+    url('fonts/icomoon.woff?xv7dcn') format('woff'),
+    url('fonts/icomoon.svg?xv7dcn#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-sad2:before {
+  content: "\e9e6";
+}
+.icon-vine:before {
+  content: "\ea97";
+}
+.icon-steam2:before {
+  content: "\eaad";
+}
+.icon-reddit:before {
+  content: "\eac6";
+}
+.icon-IE:before {
+  content: "\eadb";
+}
