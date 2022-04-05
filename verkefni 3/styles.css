@@ -84,7 +84,37 @@
         text-align: center;
     }
 
-    
+    .drop{
+        display: none;
+    }
+
+    .butt{
+        border: none;
+        font-size: 20px;
+    }
+
+    .dropdown{
+        display: none;
+        position: absolute;
+        background-color: aquamarine;
+    }
+
+    .dropdown ul{
+        display: block;
+    }
+
+    .dropdown ul a{
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block
+    }
+
+    .dropdown:hover a:hover {background-color: limegreen;}
+
+    .topnav:hover .dropdown {display: block;}
+
+    .topnav:hover .butt {background-color: limegreen;}
 }
 
 
@@ -185,11 +215,18 @@
         height: 80px;
         width: 100%;
         align-items: center;
-
     }
 
     .logo{
         padding-left: 60px;
+    }
+
+    .dropdown{
+        display: none;
+    }
+
+    .butt{
+        display: none;
     }
 
     .topnav ul {
@@ -217,3 +254,4 @@
     }
 
 }
+
