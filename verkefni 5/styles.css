@@ -268,5 +268,38 @@
     a[target="_blank"]{
         color: yellow;
     }
+    
+    .rotate{
+        position: absolute;
+        transform: translate(0,0);
+        animation: spin 1.5s infinite linear;
+    }
+
+    @keyframes spin{
+        0%{transform: rotate(0deg);}
+        100%{transform: rotate(360deg);}
+    }
+
+    .hoverton{
+        transition: all 2s ease-in-out;
+    }
+
+    .hoverton:hover{
+        transform: rotate(360deg);
+    }
+    
+    .rotatebig{
+        position: relative;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-name: bigspin;
+    }
+
+    @keyframes bigspin{
+        0%{left:150px;right:0px}
+        50%{left:0px;right:150;}
+        100%{left:0px;right:150px;}
+    
+
 
 }
